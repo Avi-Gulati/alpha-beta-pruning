@@ -30,7 +30,7 @@ This project contains several key components:
 To run a simulation of the game, create a `GhostDictionary` from a list of valid English words, then instantiate and run a game with desired agents and starting conditions:
 
 ```python
-from pset3 import *
+from alphabeta import *
 
 dictionary = GhostDictionary("dictionary.txt")
 prefix = "ou"
